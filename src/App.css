@@ -1,0 +1,25 @@
+.App {
+  min-height: 100vh;
+}
+
+/* Toast Customization */
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.Toastify__toast--success {
+  background: var(--success);
+}
+
+.Toastify__toast--error {
+  background: var(--danger);
+}
+
+.Toastify__toast--warning {
+  background: var(--warning);
+}
+
+.Toastify__toast--info {
+  background: var(--primary);
+}
